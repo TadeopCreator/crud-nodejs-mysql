@@ -6,6 +6,7 @@ const path = require('path');
 const app = express();
 require('dotenv').config();
 
+// To get the database password from the .env file
 const PASS = process.env.DATABASE_PASSWORD;
 
 // Importing routes
